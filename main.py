@@ -13,6 +13,12 @@ output. See README.md for how the line was chosen (16 candidates, scored
 criterion by criterion against the published judge brief; the live-judge A/B
 was attempted and blocked by the provider returning HTTP 402, so selection
 is by structured manual scoring — stated honestly there).
+
+Tie-break that picked this line over the runner-up: the winning excuse is
+self-referential (the apology itself is the thing that evicted the
+deadline), so it scores on both specificity (a concrete agent failure mode,
+context-window eviction) and universality (it lands for any agent, not one
+model or one tool). The runner-up was specific but model-bound.
 """
 
 import os
